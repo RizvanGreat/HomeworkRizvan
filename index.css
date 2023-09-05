@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 50px;
+  height: 100vh;
+}
+
+.cars-list,
+.movies-list {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 15px 0;
+  background-color: #e6e6e6;
+  list-style-type: none;
+  border-radius: 10px;
+}
+
+.cars-list-item,
+.movies-list-item {
+  padding: 15px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  font-weight: 500;
+}
+
+td,
+th {
+  padding: 5px 15px;
+  border: 1px solid black;
+}
+
+.dogs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px 0;
+}
